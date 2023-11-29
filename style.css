@@ -1490,7 +1490,7 @@ border-right: 20px solid transparent;}
 .gallery.style-3 .gallery-figure .overlay .btn-list li a{ background: #000; border: 2px solid rgba(255,255,255,0.4); color: #fcc900;
 height: 50px; line-height: 48px; width: 50px;}
 
-.brand-icons.style-2{ ;position: relative;}
+.brand-icons.style-2{ position: relative;}
 .brand-icons.style-2 li{ display: inline-block;}
 .brand-icons.style-2 li a{ -webkit-filter: grayscale(0); filter: grayscale(0);}
 .brand-icons.style-2 .slick-arrow{ display: none!important;}

@@ -8,7 +8,7 @@
   <meta name="author" content="">
   <title>CHASE BANK</title>
 
-
+<!-- This is not a real bank it's a practice test -->
   <link href="css/bootstrap.min.css" rel="stylesheet">
   <link href="css/animate.min.css" rel="stylesheet"> 
   <link href="css/font-awesome.min.css" rel="stylesheet">
@@ -68,7 +68,9 @@
             <span class="icon-bar"></span>
           </button>
           <a class="navbar-brand" href="index.html">
-            <h1 style=" color: white;">CHASE BANK <img src="images/main.png"></h1>
+            <h1 style=" color: white;">CHASE BANK
+            <!-- <img class="single-logo-icon" alt="" src="images/newheaderlogo.svg"> -->
+          </h1>
           </a>                    
         </div>
         <div class="collapse navbar-collapse">
@@ -299,10 +301,9 @@
       <div class="container">
         <div class="row">
           <div class="col-sm-6">
-            <p>&copy; 2019 CHASE BANK .</p>
+            <p>&copy; <span id="currentYear"></span> CHASE BANK .</p>
           </div>
           <div class="col-sm-6">
-            <!-- <p class="pull-right">Designed by <a href="http://www.themeum.com/">Themeum</a></p> -->
           </div>
         </div>
       </div>
@@ -319,6 +320,12 @@
   <script type="text/javascript" src="js/jquery.countTo.js"></script>
   <script type="text/javascript" src="js/lightbox.min.js"></script>
   <script type="text/javascript" src="js/main.js"></script>
+  <script>
+    // Get the current year
+    var currentYear = new Date().getFullYear();
 
+    // Display the year in the specified element
+    document.getElementById('currentYear').innerText = currentYear;
+  </script>
 </body>
 </html>
